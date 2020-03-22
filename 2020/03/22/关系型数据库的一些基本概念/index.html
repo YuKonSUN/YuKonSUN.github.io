@@ -6,16 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://YoKonSUN.github.io">
-  <title>Archives: 2020 | YoKonSUN的博客</title>
+  <title>关系型数据库的一些基本概念 | YoKonSUN的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Mr.Sun 的个人技术博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="YoKonSUN的博客">
-<meta property="og:url" content="http://yokonsun.github.io/archives/2020/index.html">
+  <meta name="description" content="关系型数据库的一些基本概念一、关系数据库结构及结构化定义  关系模型的数据结构很简单，就可以看成一张二维表。它的专业名词叫做关系。 我们先来看一下一张表（关系）的例子    ID name dept_name salary    2222 Einstein Physics 95000   1211 SUN Finance 90000   在这里我们一起来分析一下这张表的组成。（在这里将会介绍它的一">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关系型数据库的一些基本概念">
+<meta property="og:url" content="http://yokonsun.github.io/2020/03/22/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/index.html">
 <meta property="og:site_name" content="YoKonSUN的博客">
-<meta property="og:description" content="Mr.Sun 的个人技术博客">
+<meta property="og:description" content="关系型数据库的一些基本概念一、关系数据库结构及结构化定义  关系模型的数据结构很简单，就可以看成一张二维表。它的专业名词叫做关系。 我们先来看一下一张表（关系）的例子    ID name dept_name salary    2222 Einstein Physics 95000   1211 SUN Finance 90000   在这里我们一起来分析一下这张表的组成。（在这里将会介绍它的一">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-03-22T10:26:27.515Z">
+<meta property="article:modified_time" content="2020-03-22T10:29:46.969Z">
 <meta property="article:author" content="Mr.Sun">
+<meta property="article:tag" content="学习笔记">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="YoKonSUN的博客" type="application/atom+xml">
@@ -171,38 +174,152 @@
             <canvas data-colors="#eaeaea" data-sectionheight="100" data-contentid="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-关系型数据库的一些基本概念" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      关系型数据库的一些基本概念
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
+
+        
+        
+        <!-- 不蒜子统计 -->
+        <span id="busuanzi_container_page_pv" style="display:none" class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+                </span>
+
 <a href="/2020/03/22/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" class="archive-article-date">
   	<time datetime="2020-03-22T10:26:27.515Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-22</time>
 </a>
 
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/22/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/">关系型数据库的一些基本概念</a>
-    </h1>
-  
+         <!-- 开始添加字数统计-->
+        
+          <div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">1k字</span>
+      </span>
+    </span>
 
-        <div class="article-info info-on-right">
+    <span class="post-time">
+      &nbsp; | &nbsp;
+      <span class="post-meta-item-icon">
+        <i class="fa fa-hourglass-half"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">3分</span>
+      </span>
+    </span>
+</div>
           
+        <!-- 添加完成 -->
+         
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+ 
+	
+		
+		<h1 id="关系型数据库的一些基本概念"><a href="#关系型数据库的一些基本概念" class="headerlink" title="关系型数据库的一些基本概念"></a>关系型数据库的一些基本概念</h1><h2 id="一、关系数据库结构及结构化定义"><a href="#一、关系数据库结构及结构化定义" class="headerlink" title="一、关系数据库结构及结构化定义"></a>一、关系数据库结构及结构化定义</h2><p>  关系模型的数据结构很简单，就可以看成一张二维表。它的专业名词叫做关系。</p>
+<p>我们先来看一下一张表（关系）的例子</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>name</th>
+<th>dept_name</th>
+<th>salary</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2222</td>
+<td>Einstein</td>
+<td>Physics</td>
+<td>95000</td>
+</tr>
+<tr>
+<td>1211</td>
+<td>SUN</td>
+<td>Finance</td>
+<td>90000</td>
+</tr>
+</tbody></table>
+<p>在这里我们一起来分析一下这张表的组成。（在这里将会介绍它的一些专有名词的解释）</p>
+<p><strong>1.域</strong></p>
+<p>域指的是具有相同数据类型的值的集合，在这张表中name和dept_name这两列就可以看做是同一域，因为这两列存储数据的数据类型都可以看做是字符串类型。而关系就是可以看做这些域来进行笛卡尔乘积。（笛卡尔积指的是域上的一种集合运算）</p>
+<p><strong>2.元组</strong></p>
+<p>元组指的是这张表中的某一行，通常也叫做行，记录。</p>
+<p><strong>3.关系模式</strong></p>
+<p>关系模式可以看做是这张表的表头，也就是这张表的第一行。关系模式通常是用来描述这个关系的，而属性的组合也就是它的形式。</p>
+<p><strong>3.候选码</strong></p>
+<p>候选码指的是能唯一标识这张表的最小的属性组合。它可以有一列构成，也可以有很多列构成。有的时候，一个关系中可以有很多个候选码。候选码中所有的属性都称为<strong>主属性</strong>。而不包含任何的候选码中的属性叫做<strong>非主属性</strong>或<strong>非码属性</strong>。当一个关系模式中所有的属性都是候选码的时候，就叫做<strong>全码</strong>。</p>
+<p><strong>4.目或度</strong></p>
+<p>在这里我要先说明一下什么是关系，一个关系可以说是D1，D2……Dn相乘中的子集（就是不同组合的乘积）。而n是这个关系的目或者度。n目关系必有n个属性。</p>
+<h2 id="二、关系操作和关系代数"><a href="#二、关系操作和关系代数" class="headerlink" title="二、关系操作和关系代数"></a>二、关系操作和关系代数</h2><p>通常指的是：查询操作和插入、删除、修改操作两大部分。</p>
+<p>这里主要介绍查询部分的一些基本操作。（关系代数）</p>
+<p><strong>集合运算符</strong></p>
+<p>通常是二目运算，也就是R，S要有相同的的目，即两个关系都要有n个属性，且相应的属性要取自同一个域。（并不是说这两个关系所描述的东西是完全相同的）</p>
+<p><strong>1.并</strong></p>
+<p>并指的是将这两个关系合并到一起，并且会自动的删除相同的行。</p>
+<p><strong>2.差</strong></p>
+<p>R-S，指的是删除R中与S相同的行。</p>
+<p><strong>3.交</strong></p>
+<p>指的是取R和S中相同的行。</p>
+<p><strong>4.笛卡尔积</strong></p>
+<p>这里指的是广义的笛卡尔积。就相当于将所有的行进行一一对应。两个三行的关系进行拼接，就会得到9行的关系。</p>
+<p><strong>专门的关系的运算</strong></p>
+<p>博主会在这里偷个懒，这些的操作运算符我就不打了</p>
+<p><strong>1.选择</strong></p>
+<p>就是指只保留你要的的某几行。</p>
+<p><strong>2.投影</strong></p>
+<p>投影得到的是你所需要的某几个属性。</p>
+<p><strong>3.连接</strong></p>
+<p>这里分为等值连接和自然连接。</p>
+<p>等值连接指的是，你选取属性值相同的那些元组，会删掉属性值不同的。（它们的属性名不一定要相同）相同的属性列不会去掉。</p>
+<p>自然连接其实是等值连接的一种特殊的形式，它的连接，你要保证，他们的属性名要相同。并且会把重复的属性列去掉。</p>
+<p><strong>4.除运算</strong></p>
+<p>因为在实际的实验操作过程中很少用到，这里博主就不介绍了，有感兴趣的小伙伴就自己下去看吧。</p>
+<p>在这里还有一些关系演算之类的概念，会在之后的博客中进行介绍总结。这个其实也是答主自己的一些学习过程。</p>
+<p>  这篇文章也是答主自己的学习笔记，如果有错误，欢迎评论区指出，博主感激涕零。</p>
+
+	
+
+
+  <div class="declare" hidden="hidden"></div>
+
+
+
+       
+         <div class="essayending">
+           <div>
+            <div style="text-align:center;color: #ccc;font-size:22px;">
+            <br>
+            <br>
+ -------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------
+            <br>
+            <br>
+             <br>
+             <br>
+            </div>
+           </div>
+         </div>
+         
+       
+
+
+
+      
+	
+
+
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -214,7 +331,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -227,127 +344,137 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
   </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/03/19/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2020-03-19T09:54:54.709Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-19</time>
-</a>
+</div>
 
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/19/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%B5%8B%E8%AF%95/">第二次测试</a>
-    </h1>
-  
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yokonsun.github.io/2020/03/22/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5/" alt="微信分享二维码">
+    </div>
+</div>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测验</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Linux//" class="article-tag-list-link color1">Linux</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Linux/mysql//" class="article-tag-list-link color1">mysql</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/03/18/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/" class="archive-article-date">
-  	<time datetime="2020-03-18T13:26:07.485Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-18</time>
-</a>
+</div></article>
 
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/19/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E6%B5%8B%E8%AF%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第二次测试</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/03/18/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/">我的博客测试</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测验</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/Linux//" class="article-tag-list-link color1">Linux</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#关系型数据库的一些基本概念"><span class="toc-number">1.</span> <span class="toc-text">关系型数据库的一些基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、关系数据库结构及结构化定义"><span class="toc-number">1.1.</span> <span class="toc-text">一、关系数据库结构及结构化定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、关系操作和关系代数"><span class="toc-number">1.2.</span> <span class="toc-text">二、关系操作和关系代数</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
+
+      <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+
+<script>
+var gitalk = new Gitalk({
+  clientID: '07d8a9eaf9950ef6fae7',
+  clientSecret: 'ab17cebbd36c203e7ac21b45b5cfea24b339d2d1',
+  repo: 'my_gitalk_community',
+  owner: 'YuKonSUN',
+  admin: ['YuKonSUN'],
+  id: md5(window.location.pathname),
+  distractionFreeMode: true
+})
+
+gitalk.render('gitalk-container')
+</script>
+  
 
 
           </div>
@@ -403,8 +530,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
